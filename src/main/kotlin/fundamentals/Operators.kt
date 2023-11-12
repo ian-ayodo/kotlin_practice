@@ -5,7 +5,7 @@ import javax.print.attribute.IntegerSyntax
 
 class Operators(){
 
-    fun mathematical_operations()  {
+    fun mathematical_operations() : Int {
         var result = 0
 
         print("Enter first number : ")
@@ -32,6 +32,7 @@ class Operators(){
             else -> println("You have to enter one of these operations : Add, Multiply, Divide or Subtract")
         }
 
+        return  result
     }
 
 }
